@@ -27,11 +27,9 @@
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-          <a id="link" href 
-        data-action="share/whatsapp/share"
-        target="_blank"> 
-       <button class="btn btn-default">Share</button>
-    </a> 
+         
+       <!--<button class="btn btn-default">Share</button>-->
+  
       </div>
     </div>
   </form>
@@ -40,9 +38,10 @@
 </body>
 <script>
 function myFunction(val) {
- document.getElementById("link").href= 
-"whatsapp://send?text=https://ytpgen.boxcubegames.repl.co/?v="+val;
+
  document.getElementById("lwp").innerHTML="https://ytpgen.boxcubegames.repl.co/?v="+val;
+ location.href= 
+"whatsapp://send?text=https://ytpgen.boxcubegames.repl.co/?v="+val;
 }
 </script>
 </html>
